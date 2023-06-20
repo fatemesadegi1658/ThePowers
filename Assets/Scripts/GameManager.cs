@@ -154,6 +154,8 @@ public class GameManager : MonoBehaviour
         }
     }
 
+
+    //this method moves the card
     void MoveCard(Card[] cards, float dis)
     {
         for (int i = 0; i < cards.Length; i++)
@@ -163,6 +165,7 @@ public class GameManager : MonoBehaviour
     }
 
 
+    //this method starts new round
     public void StartNewRound()
     {
         isOpponentPlayed = false;
